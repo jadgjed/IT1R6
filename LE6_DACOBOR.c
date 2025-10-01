@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function prototypes
+
 float add(float a, float b);
 float subtract(float a, float b);
 float multiply(float a, float b);
@@ -11,7 +11,7 @@ int main() {
     float num1, num2, result;
 
     do {
-        // Menu
+
         printf("\n ARITHMETIC CALCULATOR \n");
         printf("1. Addition\n");
         printf("2. Subtraction\n");
@@ -22,14 +22,14 @@ int main() {
         scanf("%d", &choice);
 
         if (choice >= 1 && choice <= 4) {
-            // Input numbers
+
             printf("Enter first number: ");
             scanf("%f", &num1);
             printf("Enter second number: ");
             scanf("%f", &num2);
         }
 
-        // Control structure
+
         switch (choice) {
             case 1:
                 result = add(num1, num2);
@@ -64,7 +64,7 @@ int main() {
     return 0;
 }
 
-// Function definitions
+
 float add(float a, float b) {
     return a + b;
 }
@@ -79,4 +79,5 @@ float multiply(float a, float b) {
 
 float divide(float a, float b) {
     return a / b;
+
 }
