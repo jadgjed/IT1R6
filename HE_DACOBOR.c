@@ -46,7 +46,7 @@ int main() {
                 break;
 
             case 4:
-                printf("\nThank you for using BSIT Bank Goodbye!\n");
+                printf("\nThank you for using TRALALELO BANK Goodbye!\n");
                 break;
 
             default:
